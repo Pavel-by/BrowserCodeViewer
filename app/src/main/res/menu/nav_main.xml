@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Code">
+        <menu>
+            <item
+                android:id="@+id/headers"
+                android:icon="@mipmap/ic_header"
+                android:title="Headers" />
+            <item
+                android:id="@+id/body"
+                android:icon="@mipmap/ic_code"
+                android:title="Body" />
+        </menu>
+    </item>
+    <item android:title="Browser">
+        <menu>
+            <item
+                android:id="@+id/view"
+                android:icon="@mipmap/ic_browser"
+                android:title="Browser" />
+            <item
+                android:id="@+id/runtimeCode"
+                android:icon="@mipmap/ic_code"
+                android:title="Code" />
+            <item
+                android:id="@+id/filesList"
+                android:icon="@mipmap/ic_list_ul_black"
+                android:title="Resources" />
+        </menu>
+    </item>
+</menu>
