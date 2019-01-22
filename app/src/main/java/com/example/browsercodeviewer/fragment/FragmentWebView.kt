@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import android.webkit.WebView
 import com.example.browsercodeviewer.R
 
-class WebViewFragment : Fragment() {
+class FragmentWebView : Fragment() {
 
     lateinit var webView: WebView
 
